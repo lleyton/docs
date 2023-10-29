@@ -1,78 +1,101 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Fyra Developer",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#9333ea",
+    "light": "#c084fc",
+    "dark": "#7e22ce",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#9333ea",
+      "to": "#c084fc"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
+  "topbarLinks": [],
   "topbarCtaButton": {
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Terra",
+      "icon": "box",
+      "url": "terra"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Helium",
+      "icon": "atom",
+      "url": "helium"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Home",
+      "pages": ["introduction"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "Terra",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "terra/contributing",
+        "terra/autoupdate",
+        "terra/faq",
+        "terra/guidelines",
+        "terra/installing",
+        "terra/lifecycle",
+        "terra/policy"
+      ]
+    },
+    {
+      "group": "HIG",
+      "pages": [
+        "helium/hig/introduction",
+        "helium/hig/design-principles",
+        {
+          "group": "Guidelines",
+          "pages": [
+            "helium/hig/guidelines/app-icon",
+            "helium/hig/guidelines/app-naming",
+            "helium/hig/guidelines/colours",
+            "helium/hig/guidelines/standard-keyboard-shortcuts",
+            "helium/hig/guidelines/typography"
+          ]
+        },
+        {
+          "group": "Patterns",
+          "pages": [
+            "helium/hig/patterns/app-bars",
+            "helium/hig/patterns/avatar",
+            "helium/hig/patterns/badges",
+            "helium/hig/patterns/banners",
+            "helium/hig/patterns/bottom-bar",
+            "helium/hig/patterns/buttons",
+            "helium/hig/patterns/chips",
+            "helium/hig/patterns/content-list",
+            "helium/hig/patterns/content-blocks",
+            "helium/hig/patterns/dialog",
+            "helium/hig/patterns/empty-page",
+            "helium/hig/patterns/navigationrail",
+            "helium/hig/patterns/overlay-button",
+            "helium/hig/patterns/sidebars",
+            "helium/hig/patterns/toasts",
+            "helium/hig/patterns/view-chooser",
+            "helium/hig/patterns/view-switcher",
+            "helium/hig/patterns/views",
+            "helium/hig/patterns/welcome-screen",
+            "helium/hig/patterns/windows"
+          ]
+        }
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/FyraLabs",
+    "discord": "https://discord.gg/BHNfGewTXX",
+    "twitter": "https://twitter.com/TeamFyraLabs"
   }
 }
